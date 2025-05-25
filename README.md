@@ -1,7 +1,8 @@
 # Module3Capstone
 Amanda Sibuea
 
-## Main Topic: Predicting Customer Churn in E-Commerce Using Machine Learning
+## Main Topic: Churn Signals - Listening to What Data Says About Leaving Customers
+Predicting Customer Churn in E-Commerce Using Machine Learning
 
 ## Introduction
 This capstone project for the Purwadhika Data Science Programme focuses on exploring data from start to finish regarding E-Commerce Customer Churn.
