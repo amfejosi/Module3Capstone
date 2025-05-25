@@ -21,13 +21,13 @@ The churn column indicates whether a customer is considered churned (1) or not-c
 Although the specific criteria used to assign this label weren’t explicitly provided, the model uses available behavioral features like Day Since Last Order, Tenure, and Complaint history, to learn patterns associated with customer churn.
 
 ### Features
-Tenure: tenure of a customer in the company
-WarehouseToHome: distance between the warehouse to the customer's home
-NumberOfDeviceRegistered: total number of devices registered on a particular customer
-PreferedOrderCat: prefered order category of a customer in the last month
-SatisfactionScore: satisfactory score of a customer on service
-MaritalStatus: marital status of a customer
-NumberOfAddress: total number of address on a particular customer
-Complain: whether a customer has raised a complain in the last month
-DaySinceLastOrder: day since last order by customer
-CashbackAmount : average cashback in last month
+- Tenure: tenure of a customer in the company
+- WarehouseToHome: distance between the warehouse to the customer's home
+- NumberOfDeviceRegistered: total number of devices registered on a particular customer
+- PreferedOrderCat: prefered order category of a customer in the last month
+- SatisfactionScore: satisfactory score of a customer on service
+- MaritalStatus: marital status of a customer
+- NumberOfAddress: total number of address on a particular customer
+- Complain: whether a customer has raised a complain in the last month
+- DaySinceLastOrder: day since last order by customer
+- CashbackAmount : average cashback in last month
