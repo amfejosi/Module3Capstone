@@ -13,7 +13,7 @@ The data set belongs to a leading online E-commerce company. An online retail co
 With that, the goal of this project is to create a prediction model to accurately predict the customers who will potentially churn based on the data of the features collected in the dataset provided.
 
 ### Target
-0: Does not churn
+0: Does not churn <br>
 1: Churns
 
 In this project, a churned customer is defined based on the label provided in the dataset.
