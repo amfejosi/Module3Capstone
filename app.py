@@ -9,7 +9,7 @@ with open('c:/Users/amfed/OneDrive/ドキュメント/Purwadhika/Module 3/Module
 
 THRESHOLD = 0.4
 
-st.title("Customer Outcome Prediction App")
+st.title("Customer Churn Prediction App")
 st.write("Enter customer data to predict the outcome (churn or not churn).")
 
 # inputs
@@ -22,7 +22,7 @@ marital_status = st.selectbox("Marital Status", options=["Single", "Married", "D
 number_of_address = st.number_input("Number of Address", min_value=1)
 complain = st.radio("Complain", options=[0, 1])
 day_since_last_order = st.number_input("Day Since Last Order", min_value=0)
-cashback_amount = st.number_input("Cashback Amount", min_value=0)
+cashback_amount = st.number_input("Cashback Amount", min_value=0.0)
 
 # Convert input to DataFrame (adjust columns to match training data)
 input_data = pd.DataFrame([{
@@ -47,7 +47,7 @@ if st.button("Predict"):
 
     # Output
     st.write(f"**Probability of outcome = 1 (customer will churn):** {prob:.3f}")
-    st.write(f"**Predicted class at threshold {THRESHOLD}:** {prediction}")
+    st.write(f"**Threshold:** {THRESHOLD}")
 
     if prediction == 1:
         st.success("⚠️ Prediction: Likely to churn")
