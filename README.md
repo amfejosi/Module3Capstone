@@ -172,10 +172,7 @@ The model was saved using pickle and a streamlit app was built to enable input o
 Use threshold 0.4 to maximise true positives and minimise false negatives. This is critical in churn and the company’s business model where each churn can cost a lot (from the customer lifetime value).
 2. Use feature importance to inform retention strategy
 Tenure has the strongest negative predictor of churn. So it is recommended for the company to target new customers (low tenure) with onboarding programs, loyalty rewards and proactive check ins.
-<br>
 Product preferences like others and mobile are associated with higher churn rates while laptop & accessories buyers churn less. With that, it is recommended to segment and target high-churn product categories with personalised promotions or surveys
-<br>
-It is also recommended to integrate tenure and prefered order category into the CRM for customer lifetime value analysis and segmentation.4
-
+It is also recommended to integrate tenure and prefered order category into the CRM for customer lifetime value analysis and segmentation.
 3. Evaluate and compare alternate models
 Logistic regression performed best overall (a recall score of 0.805 after tuning) but a continued exploration of ensemble models should be considered for further improvement. Especially because it seems like logistic regression has hit it’s limitations.
